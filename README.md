@@ -20,7 +20,7 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.c
 I want to make the CV mobile-First. After a small example i did, i decided to use flexbox instead of CSS Gridd. I also decided to do this project the Block.Element.Modifier way, and use SASS.
 
 I started with the header with my profile picture and name. for the navigation i used a hamburger icon that i call with vanilla Javascript.
-I also want to do this with the items in the navigation instead of using the <A> tags. If i would do that the only thing i do with javascript is the navigation toggle. By using Javascript to change the main page i want to show that i know how to manipulate the DOM.
+I also want to do this with the items in the navigation instead of using A tags. If i would do that the only thing i do with javascript is the navigation toggle. By using Javascript to change the main page i want to show that i know how to manipulate the DOM.
 
 I got the hamburger to work. It is showing me the menu i want. id needs a little tweeking to make it look like its coming from the left. For now it looks like it just appears and disappears. I come back to this when i am almost at the end.
 
