@@ -1,15 +1,30 @@
 body {
-  width: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
+  font-family: 'Heebo', sans-serif;
 }
 
-body {
+.header {
   background-color: #dee0e4;
+  text-align: center;
+  border-bottom: 2px solid #7cdafd;
 }
 
-header img {
+.header__image {
   width: 120px;
   border-radius: 50%;
+  border: 2px solid #7cdafd;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-top: 25px;
+}
+
+nav {
+  padding: 10px;
+}
+
+nav i::before {
+  font-size: 30px;
 }
 /*# sourceMappingURL=Styles.css.map */

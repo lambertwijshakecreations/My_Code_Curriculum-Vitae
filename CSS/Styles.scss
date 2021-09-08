@@ -1,13 +1,31 @@
 @import "./Variabelen";
-@import "./GridDisplay.scss";
 
-body{
-    background-color: $secondary;
+//mobile
+body {
+    margin:0;
+    padding:0;
+    width:100%;
+    font-family: 'Heebo', sans-serif;
 }
 
-header{
-    img{
+.header{
+    background-color: $secondary;
+    text-align: center;
+    border-bottom: 2px solid $mainColor;
+    &__image{
         width:120px;
         border-radius: 50%;
+        border:2px solid $mainColor;
+        justify-self: center;
+        margin-top:25px;
+    } 
+}
+
+nav{
+
+    padding:10px;
+    i::before{
+        font-size: 30px;;
     }
 }
+
