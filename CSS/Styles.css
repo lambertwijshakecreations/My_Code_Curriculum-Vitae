@@ -21,11 +21,23 @@ body {
 }
 
 nav {
-  border-bottom: 2px solid #7cdafd;
   padding: 10px;
 }
 
 nav i::before {
   font-size: 30px;
+}
+
+nav .nav__list {
+  width: 250px;
+}
+
+nav ul {
+  visibility: hidden;
+  position: fixed;
+  left: 0;
+  -webkit-transition: all 100ms linear;
+  transition: all 100ms linear;
+  z-index: 100;
 }
 /*# sourceMappingURL=Styles.css.map */
