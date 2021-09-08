@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EAAE,IAAI;CACzB",
+    "mappings": "AAEA,AAAA,IAAI,CAAA;EACA,gBAAgB,ECHZ,IAAI;CDIX",
     "sources": [
-        "Styles.scss"
+        "Styles.scss",
+        "Variabelen.scss"
     ],
     "names": [],
     "file": "Styles.css"
