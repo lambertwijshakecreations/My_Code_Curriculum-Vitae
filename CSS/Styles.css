@@ -1,4 +1,4 @@
-body {
+.body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -9,6 +9,7 @@ body {
   background-color: #dee0e4;
   text-align: center;
   border-bottom: 2px solid #7cdafd;
+  border-top: 25px solid #7cdafd;
 }
 
 .header__image {
@@ -55,5 +56,24 @@ nav .nav__list li {
   margin: 10px 0;
   padding-left: 5px;
   list-style: none;
+}
+
+footer {
+  height: 35px;
+  background-color: #7cdafd;
+}
+
+footer span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer span a {
+  color: #fff;
+  text-shadow: 0 0 2px black;
+  font-size: 25px;
 }
 /*# sourceMappingURL=Styles.css.map */
