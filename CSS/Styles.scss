@@ -22,7 +22,7 @@ body {
 }
 
 nav{
-
+    border-bottom: 2px solid $mainColor;
     padding:10px;
     i::before{
         font-size: 30px;;
