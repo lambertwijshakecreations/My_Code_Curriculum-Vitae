@@ -38,6 +38,7 @@ nav .nav__list {
   visibility: hidden;
   position: fixed;
   left: 0;
+  top: 320px;
   -webkit-transition: all 20ms linear;
   transition: all 20ms linear;
   z-index: 1000;
