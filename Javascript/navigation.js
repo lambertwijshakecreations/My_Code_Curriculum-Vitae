@@ -7,12 +7,12 @@ const navigationToggle = () => {
 	const getLiLinks = document.querySelectorAll("li");
 	if (toggleNavStatus === false) {
 		getNavbarUl.style.visibility = "visible";
-		getNavbar.style.width = "250px";
+		getNavbar.style.width = "200px";
 		const allLinks = getLiLinks.forEach((link) => (link.style.opacity = "1"));
 		toggleNavStatus = true;
 	} else if (toggleNavStatus === true) {
 		getNavbarUl.style.visibility = "hidden";
-		getNavbar.style.width = "0px";
+		getNavbar.style.width = "-1px";
 		const allLinks = getLiLinks.forEach((link) => (link.style.opacity = "0"));
 		toggleNavStatus = false;
 	}

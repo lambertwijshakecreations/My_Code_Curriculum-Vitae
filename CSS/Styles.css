@@ -21,23 +21,39 @@ body {
 }
 
 nav {
-  padding: 10px;
+  padding-top: 20px;
 }
 
 nav i::before {
-  font-size: 30px;
+  font-size: 35px;
+  margin-left: 15px;
+  padding-top: 25px;
 }
 
 nav .nav__list {
-  width: 250px;
-}
-
-nav ul {
+  display: block;
+  width: 200px;
+  height: 100px;
   visibility: hidden;
   position: fixed;
   left: 0;
-  -webkit-transition: all 100ms linear;
-  transition: all 100ms linear;
-  z-index: 100;
+  -webkit-transition: all 20ms linear;
+  transition: all 20ms linear;
+  z-index: 1000;
+}
+
+nav .nav__list ul {
+  border: 1px solid #7cdafd;
+  padding-left: 0;
+  background-color: #dee0e4;
+  -webkit-transition: all 20ms linear;
+  transition: all 20ms linear;
+  z-index: 1000;
+}
+
+nav .nav__list li {
+  margin: 10px 0;
+  padding-left: 5px;
+  list-style: none;
 }
 /*# sourceMappingURL=Styles.css.map */
