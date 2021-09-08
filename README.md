@@ -31,4 +31,4 @@ I made a container for the main. this is the container i want to use to manipula
 
 Each name i can call with a querySelector. I want to try to use Vanilla javascript as much as i can.
 
-first i gave the main some input, so it has something to see when u start te App. it contains a profile with my motivation. A Contact with my address, phone and e-mail. At the bottom i made a span like a footer. there are three Icons that are links to my Github, my linkedIn and my Facebook account. i style the footer, but the rest i style tomorrow.
+first i gave the main some input, so it has something to see when u start te App. it contains a profile with my motivation. A Contact with my address, phone and e-mail. At the bottom i made a span like a footer. there are three Icons that are links to my Github, my linkedIn and my Facebook account. And last thing for today is to style the main and the footer for the mobile.
