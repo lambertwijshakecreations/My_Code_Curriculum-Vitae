@@ -22,7 +22,7 @@ I want to make the CV mobile-First. After a small example i did, i decided to us
 I started with the header with my profile picture and name. for the navigation i used a hamburger icon that i call with vanilla Javascript.
 I also want to do this with the items in the navigation instead of using A tags. If i would do that the only thing i do with javascript is the navigation toggle. By using Javascript to change the main page i want to show that i know how to manipulate the DOM.
 
-I got the hamburger to work. It is showing me the menu i want. id needs a little tweeking to make it look like its coming from the left. For now it looks like it just appears and disappears. I come back to this when i am almost at the end.
+I got the hamburger to work. It is showing me the menu i want. it needs a little tweeking to make it look like its coming from the left. For now it looks like it just appears and disappears. I come back to this when i am almost at the end.
 
 I made a container for the main. this is the container i want to use to manipulate the DOM. For this it has the following names:
 
