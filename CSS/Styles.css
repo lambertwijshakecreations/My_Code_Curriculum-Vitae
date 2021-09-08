@@ -1,4 +1,15 @@
 body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
   background-color: #dee0e4;
+}
+
+header img {
+  width: 120px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=Styles.css.map */

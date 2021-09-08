@@ -1,5 +1,13 @@
 @import "./Variabelen";
+@import "./GridDisplay.scss";
 
 body{
     background-color: $secondary;
+}
+
+header{
+    img{
+        width:120px;
+        border-radius: 50%;
+    }
 }

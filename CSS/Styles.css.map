@@ -1,9 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,IAAI,CAAA;EACA,gBAAgB,ECFT,OAAgB;CDG1B",
+    "mappings": "AEAA,AAAA,IAAI,CAAA;EACA,KAAK,EAAC,IAAI;EACV,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;CACZ;;AFDD,AAAA,IAAI,CAAA;EACA,gBAAgB,ECHT,OAAgB;CDI1B;;AAED,AACI,MADE,CACF,GAAG,CAAA;EACC,KAAK,EAAC,KAAK;EACX,aAAa,EAAE,GAAG;CACrB",
     "sources": [
         "Styles.scss",
-        "Variabelen.scss"
+        "Variabelen.scss",
+        "GridDisplay.scss"
     ],
     "names": [],
     "file": "Styles.css"
