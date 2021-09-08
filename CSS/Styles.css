@@ -58,6 +58,19 @@ nav .nav__list li {
   list-style: none;
 }
 
+.main {
+  width: 100%;
+}
+
+.main__container--home {
+  padding: 0 5px;
+}
+
+.main__container--home h4 {
+  text-align: center;
+  font-style: italic;
+}
+
 footer {
   height: 35px;
   background-color: #7cdafd;
