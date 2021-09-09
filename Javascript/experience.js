@@ -1,7 +1,7 @@
-const main = document.querySelector("#mainContainer");
-
 const myWorkExperience = () => {
 	main.innerHTML = "";
+	const experienceContainer = document.createElement("div");
+	experienceContainer.className = "main__container--experience";
 	//Header
 	const newH1 = document.createElement("h1");
 	newH1.innerText = "Werkervaring";
@@ -52,7 +52,8 @@ const myWorkExperience = () => {
 	newLi5Con2.innerText =
 		"De afwerking van producten door middel van lassen, slijpen, ponsen en plaatwerk.";
 	newUlCon2.appendChild(newLi5Con2);
-	main.appendChild(newUlCon2);
+	experienceContainer.appendChild(newUlCon2);
+	main.appendChild(experienceContainer);
 };
 
 const experienceButton = document

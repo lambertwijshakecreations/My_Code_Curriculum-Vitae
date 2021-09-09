@@ -1,3 +1,6 @@
+//location of container
+const main = document.querySelector("#mainContainer");
+
 //navigatiebalk
 toggleNavStatus = false;
 
@@ -18,10 +21,14 @@ const navigationToggle = () => {
 	}
 };
 
+//Buttons
+
+// Hamburger Icon
 const navigationButton = document
 	.querySelector("#navigationButton")
 	.addEventListener("click", () => navigationToggle());
 
+//Home
 const home = document.querySelector("#home").addEventListener("click", () => {
 	window.location.reload(true);
 });
