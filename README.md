@@ -32,3 +32,27 @@ I made a container for the main. this is the container i want to use to manipula
 Each name i can call with a querySelector. I want to try to use Vanilla javascript as much as i can.
 
 first i gave the main some input, so it has something to see when u start te App. it contains a profile with my motivation. A Contact with my address, phone and e-mail. At the bottom i made a span like a footer. there are three Icons that are links to my Github, my linkedIn and my Facebook account. And last thing for today is to style the main and the footer for the mobile.
+
+09-09-2021
+
+I started the day with making a 'click' event on the home button. Because it only contains two lines of code, i did not think it would be necessary to make a separate JS file for it. So i installed this in the navigation.js
+
+Next thing on the list. i make a experience.js file for the experience (werkervaring) link. First i test if the navigationToggle function works while clicking on the 'home' and 'werkervaring' words. Then i build the page in javascript. and see if this wil change the DOM.
+
+After i created the experience page, i test it and i immediately see a flaw in the code. the experience.js changed the dom. but when i click home, it does not return back. this is a new experience for me. the only thing i can think of is to make a home.js file with code to refresh the page. only then u see the text i made in the HTML.
+
+I found a way to refresh the page to the home page by recoding the home click event in the navigation. Do it stutters when u click the page instead of changing the page when u click werkervaring.
+
+const home = document
+.querySelector("#home")
+.addEventListener("click", () => {
+window.location.reload(true);
+});
+
+But for now, it does wat i want it to do. I put it on my list of 'thingsThatNeedToBeLookedAt'.
+
+I forgot to make a container for the experiance text like i did with the home page. and gave it a class name for the style:
+
+- experienceContainer.className = "main\_\_container--experience";
+
+For the education page i want to make a array list that contains information. with this information i dont have to make a long function like i did with the experience page. I can use Array methods like forEach() to make every list item the same. maybe i do this later on with the experience page.
