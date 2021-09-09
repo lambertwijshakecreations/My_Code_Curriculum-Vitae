@@ -21,3 +21,41 @@ const educations = [
 			"Middelbare onderwijs met eindvakken: Nederlands, Engels, Biologie, Wiskunde, Plantkunde en Techniek"
 	}
 ];
+
+const training = [
+	{
+		Id: 01,
+		Name: "Windows 10",
+		Location: "Staplessen.nl | 2020"
+	},
+	{
+		Id: 01,
+		Name: "Office 365",
+		Location: "Staplessen.nl | 2020"
+	},
+	{
+		Id: 01,
+		Name: "Corel PaintShop Pro 2020",
+		Location: "Staplessen.nl | 2020"
+	},
+	{
+		Id: 01,
+		Name: "The Mini Cours HTML/CSS",
+		Location: "WINC Academy | 2020"
+	},
+	{
+		Id: 01,
+		Name: "Veiligheidscertificaat Vorkheftruck",
+		Location: "JobTrans | 2020"
+	},
+	{
+		Id: 01,
+		Name: "Wiskunde en Natuurkunde",
+		Location: "LOI | 2015"
+	},
+	{
+		Id: 01,
+		Name: "RAPID Basic Programming S4",
+		Location: "Irmato Robotics | 2011"
+	}
+];
