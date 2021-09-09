@@ -2,6 +2,8 @@
 
 Status: Work in progress
 
+NOTE: Some of my commits say updated README.js. by this i mean README.md.
+
 08-09-2021:
 
 I started out by using my paper Curriculum Vitae as an example point. I wrote down every RGB from the colors and de fonts that was used in de paper CV.
