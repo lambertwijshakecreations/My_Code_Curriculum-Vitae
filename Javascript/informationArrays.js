@@ -22,7 +22,7 @@ const educations = [
 	}
 ];
 
-const training = [
+const trainings = [
 	{
 		Id: 01,
 		Name: "Windows 10",
