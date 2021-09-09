@@ -22,6 +22,6 @@ const navigationButton = document
 	.querySelector("#navigationButton")
 	.addEventListener("click", () => navigationToggle());
 
-const home = document
-	.querySelector("#home")
-	.addEventListener("click", () => navigationToggle());
+const home = document.querySelector("#home").addEventListener("click", () => {
+	window.location.reload(true);
+});
