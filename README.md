@@ -39,7 +39,7 @@ I started the day with making a 'click' event on the home button. Because it onl
 
 Next thing on the list. i make a experience.js file for the experience (werkervaring) link. First i test if the navigationToggle function works while clicking on the 'home' and 'werkervaring' words. Then i build the page in javascript. and see if this wil change the DOM.
 
-After i created the experience page, i test it and i immediately see a flaw in the code. the experience.js changed the dom. but when i click home, it does not return back. this is a new experience for me. the only thing i can think of is to make a home.js file with code to refresh the page. only then u see the text i made in the HTML.
+After i created the experience page, i test it and i immediately see a flaw in the code. the experience.js changed the DOM. but when i click home, it does not return back. this is a new experience for me. the only thing i can think of is to make a home.js file with code to refresh the page. only then u see the text i made in the HTML.
 
 I found a way to refresh the page to the home page by recoding the home click event in the navigation. Do it stutters when u click the page instead of changing the page when u click werkervaring.
 
@@ -56,3 +56,5 @@ I forgot to make a container for the experiance text like i did with the home pa
 - experienceContainer.className = "main\_\_container--experience";
 
 For the education page i want to make a array list that contains information. with this information i dont have to make a long function like i did with the experience page. I can use Array methods like forEach() to make every list item the same. maybe i do this later on with the experience page.
+
+Now that is done i made a education.js and made a function that i give the education information as argument. this repeats a h3 as title of the education. then a h4 witch is a title for the where and when. and a P for a definition about the education. i am happy with the results.
