@@ -57,4 +57,6 @@ I forgot to make a container for the experiance text like i did with the home pa
 
 For the education page i want to make a array list that contains information. with this information i dont have to make a long function like i did with the experience page. I can use Array methods like forEach() to make every list item the same. maybe i do this later on with the experience page.
 
-Now that is done i made a education.js and made a function that i give the education information as argument. this repeats a h3 as title of the education. then a h4 witch is a title for the where and when. and a P for a definition about the education. i am happy with the results.
+Now that is done i made a education.js and made a function that i give the education information as argument. this repeats a h3 as title of the education. then a h4 witch is a title for the where and when. and a P for a definition about the education. I am happy with the results.
+
+Made training.js and did the same thing as the education function. Styling wil be done later.
