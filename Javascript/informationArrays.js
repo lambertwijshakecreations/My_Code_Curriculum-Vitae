@@ -24,38 +24,77 @@ const educations = [
 
 const trainings = [
 	{
-		Id: 01,
+		Id: 04,
 		Name: "Windows 10",
 		Location: "Staplessen.nl | 2020"
 	},
 	{
-		Id: 01,
+		Id: 05,
 		Name: "Office 365",
 		Location: "Staplessen.nl | 2020"
 	},
 	{
-		Id: 01,
+		Id: 06,
 		Name: "Corel PaintShop Pro 2020",
 		Location: "Staplessen.nl | 2020"
 	},
 	{
-		Id: 01,
+		Id: 07,
 		Name: "The Mini Cours HTML/CSS",
 		Location: "WINC Academy | 2020"
 	},
 	{
-		Id: 01,
+		Id: 08,
 		Name: "Veiligheidscertificaat Vorkheftruck",
 		Location: "JobTrans | 2020"
 	},
 	{
-		Id: 01,
+		Id: 09,
 		Name: "Wiskunde en Natuurkunde",
 		Location: "LOI | 2015"
 	},
 	{
-		Id: 01,
+		Id: 10,
 		Name: "RAPID Basic Programming S4",
 		Location: "Irmato Robotics | 2011"
+	}
+];
+
+const skills = [
+	{
+		Id: 11,
+		Name: "MS Office",
+		Value: "Goed",
+		ClassName: "circle1"
+	},
+	{
+		Id: 12,
+		Name: "HTML",
+		Value: "Goed",
+		ClassName: "circle2"
+	},
+	{
+		Id: 13,
+		Name: "CSS",
+		Value: "Zeer Goed",
+		ClassName: "circle3"
+	},
+	{
+		Id: 14,
+		Name: "Javascript",
+		Value: "Goed",
+		ClassName: "circle4"
+	},
+	{
+		Id: 15,
+		Name: "Visual Studio Code",
+		Value: "Goed",
+		ClassName: "circle5"
+	},
+	{
+		Id: 16,
+		Name: "Corel Paintshop Pro",
+		Value: "expert",
+		ClassName: "circle6"
 	}
 ];
