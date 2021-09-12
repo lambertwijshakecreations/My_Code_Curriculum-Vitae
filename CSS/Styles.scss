@@ -67,6 +67,118 @@ nav{
     }
 }
 
+.skill-display{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    & li {
+        list-style: none;
+        margin:0;
+        padding:0;
+        .box-area {
+            background-color:$secondary;
+            border-radius:50%;
+            margin:8% auto;
+            width: 200px;
+            height: 200px;
+        }
+        .round,.inner-box{
+            position: absolute;
+            border-radius: 50%;
+            width:200px;
+            height: 200px;
+        }
+        .round{
+            clip: rect(0px, 200px, 200px, 100px);
+        }
+        .inner-box{
+            clip: rect(0px, 100px, 200px, 0px);   
+            background-color:rgb(124,218,253);
+        }
+        .round.outer, .inner-box{
+            animation: animate ease 1000ms;
+            transform: rotate(150deg);
+        }
+        .number{
+            width:180px;
+            background:#fff;
+            line-height: 20px;
+            text-align: center;
+            margin-top:10px;
+            margin-left: 10px;
+            font-size: 22px;
+            color:black;
+            position: absolute;
+            z-index: 90;
+            font-weight: 900;
+            height: 180px;
+            border-radius: 50%;
+        }
+        p { 
+            text-align: center;
+            position: absolute;
+            margin-top:0;
+            left:10%;
+            bottom: 10%;
+            font-size: 27px;
+            font-weight: 200;
+        }
+    }
+    li:nth-child(1){
+        .round.outer, .inner-box{
+            animation: animate1 ease 2000ms;
+            transform: rotate(135deg);
+        }
+        p { 
+            left:35%;
+        }
+    }
+    li:nth-child(2){
+        .round.outer, .inner-box{
+            animation: animate2 ease 2000ms;
+            transform: rotate(140deg);
+        }
+        p { 
+            left:35%;
+        }
+    }
+    li:nth-child(3){
+        .round.outer, .inner-box{
+            animation: animate3 ease 2000ms;
+            transform: rotate(165deg);
+        }
+        p { 
+            left:20%;
+        }
+    }
+    li:nth-child(4){
+        .round.outer, .inner-box{
+            animation: animate4 ease 2000ms;
+            transform: rotate(100deg);
+        }
+        p { 
+            left:35%;
+        }
+    }
+    li:nth-child(5){
+        .round.outer, .inner-box{
+            animation: animate5 ease 2000ms;
+            transform: rotate(140deg);
+        }
+        p { 
+            left:35%
+        }
+    }
+    li:nth-child(6){
+        .round.outer, .inner-box{
+            animation: animate6 ease 2000ms;
+            transform: rotate(180deg);
+        }
+        p { 
+            right:5%;
+        }
+    }
+}
+
 footer {
     height: 35px;
     background-color: $mainColor;
