@@ -1,13 +1,18 @@
 const mySkills = () => {
 	main.innerHTML = "";
+
+	const skillsContainer = document.createElement("div");
+	trainingContainer.className = "skills";
+	main.appendChild(skillsContainer);
+
 	const newH1 = document.createElement("h1");
 	const H1Title = document.createTextNode("Vaardigheden");
 	newH1.appendChild(H1Title);
-	main.appendChild(newH1);
+	skillsContainer.appendChild(newH1);
 	// Display
 	const newUl = document.createElement("ul");
 	newUl.className = "skill-display";
-	main.appendChild(newUl);
+	skillsContainer.appendChild(newUl);
 	skills.forEach((skill) => {
 		//List Item MS Office
 		const newLi = document.createElement("li");
