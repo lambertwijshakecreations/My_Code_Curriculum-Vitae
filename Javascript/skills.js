@@ -2,7 +2,7 @@ const mySkills = () => {
 	main.innerHTML = "";
 
 	const skillsContainer = document.createElement("div");
-	skillsContainer.className = "skills";
+	skillsContainer.className = "main__container--skills";
 	main.appendChild(skillsContainer);
 
 	const newH1 = document.createElement("h1");
