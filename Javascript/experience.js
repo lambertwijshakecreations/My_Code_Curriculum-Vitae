@@ -5,15 +5,15 @@ const myWorkExperience = () => {
 	//Header
 	const newH1 = document.createElement("h1");
 	newH1.innerText = "Werkervaring";
-	main.appendChild(newH1);
+	experienceContainer.appendChild(newH1);
 
 	//Container1 Bureau Techniek
 	const newH3Con1 = document.createElement("h3");
 	newH3Con1.innerText = "Procesoperator";
-	main.appendChild(newH3Con1);
+	experienceContainer.appendChild(newH3Con1);
 	const newH4Con1 = document.createElement("h4");
 	newH4Con1.innerText = "Uitzendwerk via Bureau Techniek | 2020 - 2021";
-	main.appendChild(newH4Con1);
+	experienceContainer.appendChild(newH4Con1);
 	const newUlCon1 = document.createElement("ul");
 	const newLi1Con1 = document.createElement("li");
 	newLi1Con1.innerText =
@@ -23,15 +23,15 @@ const myWorkExperience = () => {
 	newLi2Con1.innerText =
 		"Werkzaam als Lasrobot Operator bij Jan Kuipers in Nunspeet";
 	newUlCon1.appendChild(newLi2Con1);
-	main.appendChild(newUlCon1);
+	experienceContainer.appendChild(newUlCon1);
 
 	//Container2 Everbake Group
 	const newH3Con2 = document.createElement("h3");
 	newH3Con2.innerText = "Procesoperator";
-	main.appendChild(newH3Con2);
+	experienceContainer.appendChild(newH3Con2);
 	const newH4Con2 = document.createElement("h4");
 	newH4Con2.innerText = "Everbake Group B.V. | 2006 - 2020";
-	main.appendChild(newH4Con2);
+	experienceContainer.appendChild(newH4Con2);
 	const newUlCon2 = document.createElement("ul");
 	const newLi1Con2 = document.createElement("li");
 	newLi1Con2.innerText =
