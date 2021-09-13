@@ -2,14 +2,13 @@ const mySkills = () => {
 	main.innerHTML = "";
 
 	const skillsContainer = document.createElement("div");
-	trainingContainer.className = "skills";
+	skillsContainer.className = "skills";
 	main.appendChild(skillsContainer);
 
 	const newH1 = document.createElement("h1");
-	const H1Title = document.createTextNode("Vaardigheden");
-	newH1.appendChild(H1Title);
+	newH1.innerText = "Vaardigheden";
 	skillsContainer.appendChild(newH1);
-	// Display
+	//Display;
 	const newUl = document.createElement("ul");
 	newUl.className = "skill-display";
 	skillsContainer.appendChild(newUl);
