@@ -25,38 +25,45 @@ const educations = [
 const trainings = [
 	{
 		Id: 04,
-		Name: "Windows 10",
-		Location: "Staplessen.nl | 2020"
+		Name: "Veiligheidscertificaat Vorkheftruck",
+		Location: "JobTrans | 2020",
+		valid: "05-12-2025"
 	},
 	{
 		Id: 05,
-		Name: "Office 365",
-		Location: "Staplessen.nl | 2020"
+		Name: "The Mini Cours HTML/CSS",
+		Location: "WINC Academy | 2020",
+		valid: "Geen einddatum"
 	},
 	{
 		Id: 06,
-		Name: "Corel PaintShop Pro 2020",
-		Location: "Staplessen.nl | 2020"
+		Name: "Windows 10",
+		Location: "Staplessen.nl | 2020",
+		valid: "Geen einddatum"
 	},
 	{
 		Id: 07,
-		Name: "The Mini Cours HTML/CSS",
-		Location: "WINC Academy | 2020"
+		Name: "Office 365",
+		Location: "Staplessen.nl | 2020",
+		valid: "Geen einddatum"
 	},
 	{
 		Id: 08,
-		Name: "Veiligheidscertificaat Vorkheftruck",
-		Location: "JobTrans | 2020"
+		Name: "Corel PaintShop Pro 2020",
+		Location: "Staplessen.nl | 2020",
+		valid: "Geen einddatum"
 	},
 	{
 		Id: 09,
 		Name: "Wiskunde en Natuurkunde",
-		Location: "LOI | 2015"
+		Location: "LOI | 2015",
+		valid: "Geen einddatum"
 	},
 	{
 		Id: 10,
 		Name: "RAPID Basic Programming S4",
-		Location: "Irmato Robotics | 2011"
+		Location: "Irmato Robotics | 2011",
+		valid: "Geen einddatum"
 	}
 ];
 
