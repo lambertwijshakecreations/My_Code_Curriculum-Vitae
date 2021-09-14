@@ -105,3 +105,27 @@ const skills = [
 		ClassName: "circle6"
 	}
 ];
+
+const codes = [
+	{
+		Id: 17,
+		Name: "Mijn eerste webpagina",
+		Description: "Een simpele website met alleen HTML en CSS.",
+		Type: "'HTML', 'CSS'",
+		Github:
+			"https://github.com/lambertwijshakecreations/Mijn_Eerste_Website_HTML_CSS.git",
+		Netlify: "https://youthful-kirch-f57e2e.netlify.app/",
+		Display: "Mobile First"
+	},
+	{
+		Id: 18,
+		Name: "Opdrachten met B.E.M. en Sass ",
+		Description:
+			"Dit zijn 3 opdrachten waarbij ik met de Block Element Modifier manier werk. En met SCSS de styling doe in plaats van CSS",
+		Type: "'HTML', 'SCSS', 'CSS'",
+		Github:
+			"https://github.com/lambertwijshakecreations/CSS-B.E.M._and_SASS_Opdrachten.git",
+		Netlify: "https://trusting-jang-b546ac.netlify.app",
+		Display: "Desktop"
+	}
+];
