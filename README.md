@@ -62,3 +62,16 @@ For the education page i want to make a array list that contains information. wi
 Now that is done i made a education.js and made a function that i give the education information as argument. this repeats a h3 as title of the education. then a h4 witch is a title for the where and when. and a P for a definition about the education. I am happy with the results.
 
 Made training.js and did the same thing as the education function. Styling wil be done later.
+
+13-09-2021
+
+I made the naxt page of my skillset. I downsised the skilss to six important skills:
+
+- MS Office
+- HTML
+- CSS
+- Javascript
+- Visual Studio Code
+- Corel Paintshop Pro
+
+i found a CSS method on Youtube to make wheels that turn like the ones on my paper CV. it took a while to make them mobile first but i got this.
