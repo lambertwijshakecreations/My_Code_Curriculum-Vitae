@@ -75,3 +75,7 @@ I made the naxt page of my skillset. I downsised the skilss to six important ski
 - Corel Paintshop Pro
 
 i found a CSS method on Youtube to make wheels that turn like the ones on my paper CV. it took a while to make them mobile first but i got this.
+
+14-09-2021
+
+Today i do the page with some codes i made the last months. i give the reader a choice by tapping on a link to Netlify and a link to GitHub. Not all my codes are made mobile first so there is a chance i have to make some of them mobile first. first i want to see what codes i want to show. Maybe a game or my first website i made out of HTML and CSS.
