@@ -127,5 +127,26 @@ const codes = [
 			"https://github.com/lambertwijshakecreations/CSS-B.E.M._and_SASS_Opdrachten.git",
 		Netlify: "https://trusting-jang-b546ac.netlify.app",
 		Display: "Desktop"
+	},
+	{
+		Id: 19,
+		Name: "Filmzoeker",
+		Description:
+			"Een opdracht waarbij je met een array list een filmzoeker moet maken. Wanneer je op de posters klikt wordt je met een link door verwezen naar de IMDB site van die film",
+		Type: "'HTML', 'SCSS', 'CSS', 'Javascript'",
+		Github:
+			"https://github.com/lambertwijshakecreations/WINC_Fimzoeker-Version1.git",
+		Netlify: "https://cranky-turing-04753c.netlify.app",
+		Display: "Mobile First"
+	},
+	{
+		Id: 20,
+		Name: "Game: Guess the number",
+		Description: "guess the number",
+		Type: "'HTML', 'SCSS', 'CSS', 'Javascript'",
+		Github:
+			"https://github.com/lambertwijshakecreations/Ques_the_number-Version1.git",
+		Netlify: "https://gallant-yalow-2dc709.netlify.app",
+		Display: "Mobile First"
 	}
 ];
