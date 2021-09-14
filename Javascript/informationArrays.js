@@ -142,7 +142,8 @@ const codes = [
 	{
 		Id: 20,
 		Name: "Game: Guess the number",
-		Description: "guess the number",
+		Description:
+			"Een raad het getal spelletje. Hier wordt je gevraagd om een minimaal en maximaal getal te geven om te raden en heb je daarne 5 pogingen om het getal dat de computer heeft gekozen te raden.",
 		Type: "'HTML', 'SCSS', 'CSS', 'Javascript'",
 		Github:
 			"https://github.com/lambertwijshakecreations/Ques_the_number-Version1.git",
