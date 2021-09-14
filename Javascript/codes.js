@@ -26,6 +26,9 @@ const myCodes = () => {
 		const newP = document.createElement("p");
 		newP.innerText = code.Description;
 		newDiv.appendChild(newP);
+		const newH5 = document.createElement("h5");
+		newH5.innerText = `Beeldformaat: ${code.Display}`;
+		newDiv.appendChild(newH5);
 		const newA1 = document.createElement("a");
 		newA1.href = code.Netlify;
 		newA1.innerText = "Netlify";
@@ -36,9 +39,6 @@ const myCodes = () => {
 		newA2.innerText = "Github";
 		newA2.target = "__blank";
 		newDiv.appendChild(newA2);
-		const newH5 = document.createElement("h5");
-		newH5.innerText = `Beeldformaat: ${code.Display}`;
-		newDiv.appendChild(newH5);
 	});
 	main.appendChild(codeContainer);
 };
