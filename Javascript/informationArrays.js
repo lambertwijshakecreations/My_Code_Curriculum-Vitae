@@ -136,7 +136,7 @@ const codes = [
 		Type: "'HTML', 'SCSS', 'CSS', 'Javascript'",
 		Github:
 			"https://github.com/lambertwijshakecreations/WINC_Fimzoeker-Version1.git",
-		Netlify: "https://cranky-turing-04753c.netlify.app",
+		Netlify: "https://sleepy-mcclintock-292a87.netlify.app/",
 		Display: "Mobile First"
 	},
 	{
