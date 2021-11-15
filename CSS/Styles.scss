@@ -31,6 +31,10 @@ nav{
         margin-left: 15px;
         padding-top:25px;
     }
+    .fa-bars:hover{
+        opacity: 0.5;
+        cursor: pointer;
+    }
     .nav__list{
         display:block;
         width: 200px;
@@ -52,7 +56,9 @@ nav{
             margin: 10px 0;
             padding-left:5px;
             list-style: none;
-           
+            &:hover{
+                cursor:pointer;
+            }
         }
     }
 }
@@ -90,8 +96,6 @@ nav{
         }
     }
     &--codes{
-        a{
-        }
         .code-object{
             border-bottom:1px solid $mainColor;
             a{
@@ -225,8 +229,7 @@ footer {
         a{
             color:#fff;
             text-shadow: 0 0 2px black;
-            font-size: 25px;;
-      
+            font-size: 25px;
         }
     }
 

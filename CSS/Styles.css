@@ -163,6 +163,11 @@ nav i::before {
   padding-top: 25px;
 }
 
+nav .fa-bars:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
 nav .nav__list {
   display: block;
   width: 200px;
@@ -189,6 +194,10 @@ nav .nav__list li {
   margin: 10px 0;
   padding-left: 5px;
   list-style: none;
+}
+
+nav .nav__list li:hover {
+  cursor: pointer;
 }
 
 .main__container {
@@ -230,7 +239,6 @@ nav .nav__list li {
 
 .main__container--codes .code-object {
   border-bottom: 1px solid #7cdafd;
-  padding: 0;
 }
 
 .main__container--codes .code-object a {
