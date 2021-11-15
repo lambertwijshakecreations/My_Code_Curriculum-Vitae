@@ -84,5 +84,14 @@ i have added the following codes:
 
 - my first webpage
 - B.E.M. & SASS assignments
-- Moviesekker
+- Movieseeker
 - Guess the game
+
+Other codes will follow.
+
+15-11-2021
+
+Its been a while sinds my last code. I want to finish the Curriculum Vitae.
+First i have read what i already have done in the README.
+
+I add my new work experiance and made a SCSS change to the nav bar. When hovering ove you now see a pointer.
