@@ -65,7 +65,7 @@ Made training.js and did the same thing as the education function. Styling wil b
 
 13-09-2021
 
-I made the naxt page of my skillset. I downsised the skilss to six important skills:
+I made the next page of my skillset. I downsised the skilss to six important skills:
 
 - MS Office
 - HTML
@@ -95,3 +95,7 @@ Its been a while sinds my last code. I want to finish the Curriculum Vitae.
 First i have read what i already have done in the README.
 
 I add my new work experiance and made a SCSS change to the nav bar. When hovering ove you now see a pointer.
+
+I need to think about my last page about the hobbies. I want to make it look good but professional.
+
+made a hobbies.js file for the hobby page.
